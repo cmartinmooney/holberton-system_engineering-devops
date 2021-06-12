@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al ../boot
+ls -al 0-current_working_directory .. boot
