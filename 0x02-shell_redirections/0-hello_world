@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello, World" -fmt
+echo 2>&1  "Hello, World"
