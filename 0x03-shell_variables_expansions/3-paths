@@ -1,2 +1,2 @@
 #!/bin/bash
-echo PATH="$PATH: tr -sc "/" "/\n" | wc -l
+echo "${PATH//:/$'\N'}" | WC -L
