@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${PATH//:/$'\N'}" | WC -L
+echo "${PATH//:/$'\n'}" | wc -l
