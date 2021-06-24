@@ -3,5 +3,6 @@
 while :
 do
         echo "To infinity and beyond"
-        killall
+	sleep 2
+	killall
 done
